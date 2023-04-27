@@ -11,6 +11,12 @@ body {
     font-size: 37px;
 }
 
+.MainTitleText h1 {
+    text-align: center;
+}
+
+
+
 .SecondaryTitleText {
     text-align: center;
     font-size: 15px;
@@ -54,4 +60,10 @@ body {
 
 .HeaderStyle {
     background-color: rgb(136, 196, 219);
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:20px;
 }
