@@ -1,0 +1,57 @@
+body { 
+    background-image:url('./SimpleGhostGif.gif'); 
+    background-repeat:repeat; 
+    background-size: cover;
+}
+
+
+
+.MainTitleText {
+    text-align: center;
+    font-size: 37px;
+}
+
+.SecondaryTitleText {
+    text-align: center;
+    font-size: 15px;
+
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    font-size: 10px;
+    
+   
+}
+
+.flex-container2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.flex-container3 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/*.ProjectText {
+    text-align: left;
+}
+
+.SchoolText {
+    text-align: center;
+}
+
+.InfoText {
+    text-align: right;
+}
+*/
+
+.TopicText {
+    font-size: 29px;
+}
+
+.HeaderStyle {
+    background-color: rgb(136, 196, 219);
+}
