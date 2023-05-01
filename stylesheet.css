@@ -4,7 +4,10 @@ body {
     background-size: cover;
 }
 
-
+.TestCenter {
+    display: flex;
+    justify-content: space-between;
+ }
 
 .MainTitleText {
     text-align: center;
@@ -15,7 +18,18 @@ body {
     text-align: center;
 }
 
+.ProfilePageMainTitle {
+    font-size: 30px;
+}
 
+.ProfilePageSecondaryText {
+    font-size: 15px;
+}
+
+.CenterTextPassword {
+    text-align: center;
+    font-size: 30px;
+}
 
 .SecondaryTitleText {
     text-align: center;
@@ -39,7 +53,30 @@ body {
 .flex-container3 {
     display: flex;
     justify-content: space-evenly;
+    padding-right: 140px;
 }
+
+.container {
+    display: flex;
+    justify-content: space-a;
+    padding-left: 600px;
+}
+
+.flex-50Test {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+   
+    padding-left: 270px;
+}
+
+.spaceheader {
+    padding-top: 20px;
+}
+
+.buttoncolor {
+    background-color: rgb(108, 206, 219);
+}
+
 
 /*.ProjectText {
     text-align: left;
@@ -66,4 +103,9 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap:20px;
+}
+
+.butonThing {
+
+    width:fit-content;
 }
